@@ -10,46 +10,54 @@
     <img src="" alt="" />
     <!-- type(데이터의 타입) checkbox(사용자에게 체크 여부 입력받음) -->
     <input type="checkbox" />
-  </body>
-</html>
 
-<!--
+    <!--
   인라인(inline)요소: 글자를 만들기 위한 요소들
   블록(block)요소: 상자(레이아웃)를 만들기 위한 요소들
   -->
-<!--인라인요소에는 높이, 넓이 속성추가해도 안바뀜, 요소가 수평으로 쌓임  -->
-<span style="width: 100px">Hello</span>
-<span style="height: 100px">World</span>
+    <!--인라인요소에는 높이, 넓이 속성추가해도 안바뀜, 요소가 수평으로 쌓임  -->
+    <span style="width: 100px">Hello</span>
+    <span style="height: 100px">World</span>
 
-<span><div></div></span> -> 불가능 <span><span></span></span> -> 가능
+    <span><div></div></span> -> 불가능 <span><span></span></span> -> 가능
 
-<!-- <div> 대표적인 블럭요소: 콘텐츠영역을 설정하는용도, 요소가 수직으로 쌓임-->
-<div style="width: 100px">Hello</div>
-<div style="height: 100px">World</div>
+    <!-- <div> 대표적인 블럭요소: 콘텐츠영역을 설정하는용도, 요소가 수직으로 쌓임-->
+    <div style="width: 100px">Hello</div>
+    <div style="height: 100px">World</div>
 
-<div><div></div></div>
-->가능
-<div><span></span></div>
--> 가능
+    <div><div></div></div>
+    ->가능
+    <div><span></span></div>
+    -> 가능
 
-<!-- 순서가 필요없는 목록(Unordered List)
+    <!-- 순서가 필요없는 목록(Unordered List)
      목록 내 각 항목(List Item) -->
-<ul>
-  <li>사과</li>
-  <li>딸기</li>
-  <li>수박</li>
-  <li>오렌지</li>
-</ul>
+    <ul>
+      <li>사과</li>
+      <li>딸기</li>
+      <li>수박</li>
+      <li>오렌지</li>
+    </ul>
 
-<!--하이퍼링크를 지정하는 요소 (Anchor) -->
-<a href="https://www.naver.com">Naver</a>
-<a href="https://www.naver.com" target="_blank">새탭에 열겠다/Naver</a>
+    <!--하이퍼링크를 지정하는 요소 (Anchor) -->
+    <a href="https://www.naver.com">Naver</a>
+    <a href="https://www.naver.com" target="_blank">새탭에 열겠다/Naver</a>
 
-<!-- 줄바꿈 요소(Br) -->
-동해물과 백두산이<br />마르고 닳도록
+    <!-- 줄바꿈 요소(Br) -->
+    동해물과 백두산이<br />마르고 닳도록
 
-<!-- 사용자가 데이터를 입력하는 요소 (Input) -->
-<input type="text" placeholder="이름을 입력하세요!" />
-<input type="text" disabled /> 입력 요소 비활성화
+    <!-- 사용자가 데이터를 입력하는 요소 (Input) -->
+    <input type="text" placeholder="이름을 입력하세요!" />
+    <input type="text" disabled /> 입력 요소 비활성화
+    <input type="checkbox" /> Apple <input type="checkbox" checked /> Banana
 
-<input type="checkbox" /> Apple <input type="checkbox" checked /> Banana
+    <!-- 전역속성 
+Title: 요소에 정보나 설명을 지정
+Style: 요소에 적용할 스타일(css)을 지정  
+class: 요소를 지칭하는 중복가능한 이름
+id: 요소를 지칭하는 고유한 이름
+data: 요소에 데이터를 지정
+
+-->
+  </body>
+</html>
