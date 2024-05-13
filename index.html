@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -11,3 +12,22 @@
     <input type="checkbox" />
   </body>
 </html>
+
+<!--
+  인라인(inline)요소: 글자를 만들기 위한 요소들
+  블록(block)요소: 상자(레이아웃)를 만들기 위한 요소들
+  -->
+<!--인라인요소에는 높이, 넓이 속성추가해도 안바뀜, 요소가 수평으로 쌓임  -->
+<span style="width: 100px">Hello</span>
+<span style="height: 100px">World</span>
+
+<span><div></div></span> -> 불가능 <span><span></span></span> -> 가능
+
+<!-- <div> 대표적인 블럭요소: 콘텐츠영역을 설정하는용도, 요소가 수직으로 쌓임-->
+<div style="width: 100px">Hello</div>
+<div style="height: 100px">World</div>
+
+<div><div></div></div>
+->가능
+<div><span></span></div>
+-> 가능
